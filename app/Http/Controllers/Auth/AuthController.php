@@ -84,7 +84,7 @@ class AuthController extends Controller
         	$message->to($data['email'])->subject('Welcome to your AskNuma account!');
 
 		});
-		$apikey = '8954af9a4315019f1d0f8082f8925744-us9';
+		$apikey = '';
             $auth = base64_encode( 'user:'.$apikey );
 
             $datas = array(
