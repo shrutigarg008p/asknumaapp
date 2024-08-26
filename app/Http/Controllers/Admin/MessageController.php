@@ -126,7 +126,7 @@ class MessageController extends Controller {
 	{
 		$ch = curl_init("https://slack.com/api/chat.postMessage");
 		$data = http_build_query([
-			"token" => "xoxp-53548687746-53542895381-68049938758-1dc58b0fb4",
+			"token" => "",
 			"channel" => "#general", //"#mychannel",
 			"text" => $_POST['message'], //"Hello, Foo-Bar channel message.",
 			"username"=>'Tobi'

@@ -68,7 +68,7 @@ class WelcomeController extends Controller {
 				);
 			$ch = curl_init("https://slack.com/api/chat.postMessage");
 			$data = http_build_query([
-			"token" => "xoxp-2274855213-71654124519-71891706131-548eb7ffb8",
+			"token" => "",
 			"channel" => "#mvpmessages", //"#mychannel",
 			"text" => $_POST['comment'], //"Hello, Foo-Bar channel message.",
 			"username"=>Auth::user()->name
