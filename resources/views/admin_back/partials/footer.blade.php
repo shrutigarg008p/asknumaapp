@@ -1,4 +1,4 @@
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyAsT3i29ee9grFevI2bo14_umv_pXsGfDc"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key="></script>
 
  <script type="text/javascript">
  $(document).ready(function(){
